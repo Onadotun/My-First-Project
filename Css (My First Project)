@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5em;
+}
+@media screen {
+    min-width::after;
+}
+#second {
+    /* padding: 1rem; */
+    border: 2px solid antiquewhite ;
+    margin: 1em;
+    padding: 1.5rem;
+    background-color: antiquewhite;
+    width: 40%;
+}
+
+.preparation {
+    width: 200px;
+    height: 100px;
+    border: 2px lightpink;
+    padding: 10px;
+}
+
+    h2{
+        color: rgb(140, 11, 11);
+    }
+    h3 {
+        color: rgb(139, 16, 75);
+    }
+
+    table {
+        width: 400px;
+    }
+
+    table, td {
+        border-bottom: 1px solid #676464 ;
+        border-collapse: collapse;
+    }
+
+    td {
+        padding: 10px;
+    }
+    td:nth-child(:right) {
+        color: brown;
+    }
+
+    figure {
+        width: 100vw;
+        height: 10rem;
+        margin:initial;
+        margin-inline: auto;
+        /* background-color: red; */
+    }
+    img {
+        width: 100%;
+        height: 120px;
+        display: block;
+        aspect-ratio: 3/1;
+        object-fit: cover;
+        object-position: center;
+    }
+    @media screen and (min-width:768px) {
+        figure {
+            width: 80vw;
+        }
+    }
+    @media screen and (min-width:768px) {
+        figure {
+            width: 80vw;
+        }
+    }
+    
+    .item {
+        color: rgb(139, 16, 75);
+
+   }
+    
+
+    
